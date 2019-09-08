@@ -39,6 +39,8 @@ python go-install.py
 ```
 
 ## Screenshot de la herramienta
+<p align="center"><img src="https://github.com/AdrMXR/GO-INSTALL/blob/master/Screenshot.png" /></p>
+
 
 ## Creditos
 Creador de la herramienta: Adrian Guillermo
@@ -48,6 +50,8 @@ Facebook: https://www.facebook.com/Adrian.Guillermo.22
 Instagram: https://www.instagram.com/adrian.guillermo22/
 
 YouTube: https://www.youtube.com/channel/UCqEtxJKbIghx6lyymrjfvnA?view_as=subscriber
+
+
 
 
 
