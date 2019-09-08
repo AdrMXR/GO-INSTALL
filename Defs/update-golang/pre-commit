@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+git add "$(./sha256-update.sh)"
+
