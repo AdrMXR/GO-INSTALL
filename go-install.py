@@ -51,7 +51,7 @@ def menu():
 def actions():
 	option = input("[*] Selecciona una opcion: ")
 	if option == 1:
-		os.system('cd /usr/local && sudo curl -O https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz && sudo tar -xzvf go1.9.linux-amd64.tar.gz && echo export PATH=$PATH:/usr/local/go/bin >> /etc/profile')
+		os.system('cd /usr/local && sudo curl -O https://golang.org/doc/install?download=go1.13.linux-amd64.tar.gz && sudo tar -xzvf go1.13.linux-amd64.tar.gz && echo export PATH=$PATH:/usr/local/go/bin >> /etc/profile')
 		if raw_input("¿Desea crear una carpeta especifica de trabajo? (y/n)\n--> ").upper() != "Y":
 			os.system('clear')
 			print("\nGRACIAS POR UTILIZAR GO INSTALL, PARA COMPROBAR SU INSTALACION DE GO TECLEE GO VERSION EN SU TERMINAL." + bcolors.RED)
@@ -84,10 +84,10 @@ def actions():
 
 
 	elif option == 3:
-		print("Removiendo GO...")
+		print("Eliminando GO...")
 		os.system('rm -rf /usr/local/go')
 		time.sleep(3)
-		pause("GO removido, presione cualquier tecla para salir...")
+		pause("GO eliminado, presione cualquier tecla para salir...")
 		exit(0)
 
 	else:
